@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "F:\\Bobby_Rabbit\\SDL\\SDL2-2.28.2\\include",
+                "F:\\Bobby_Rabbit\\SDL\\SDL2_ttf-2.20.2\\include",
+                "F:\\Bobby_Rabbit\\SDL\\SDL2_net-2.2.0\\include",
+                "F:\\Bobby_Rabbit\\SDL\\SDL2_image-2.6.3\\include",
+                "F:\\Bobby_Rabbit\\SDL\\SDL2_mixer-2.6.3\\include"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "compilerPath": "C:\\Program Files\\w64devkit\\bin\\gcc.exe",
+            "cStandard": "c17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "windows-gcc-x64"
+        }
+    ],
+    "version": 4
+}

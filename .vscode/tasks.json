@@ -1,0 +1,45 @@
+{
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "C/C++: g++.exe 生成活动文件",
+            "command": "C:\\Program Files\\w64devkit\\bin\\g++.exe",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "F:\\Aircraft_Battle_Bata\\Game\\*.cpp",
+                "-o",
+                "F:\\Aircraft_Battle_Bata\\bin\\Aircraft_Battle_Bata.exe",
+                "-IF:/SDL/SDL2-2.28.2/include",
+                "-IF:/SDL/SDL2_image-2.6.3/include",
+                "-IF:/SDL/SDL2_mixer-2.6.3/include",
+                "-IF:/SDL/SDL2_ttf-2.20.2/include",
+                "-IF:/SDL/SDL2_net-2.2.0/include",
+                "-LF:/SDL/SDL2-2.28.2/lib/x64",
+                "-LF:/SDL/SDL2_image-2.6.3/lib/x64",
+                "-LF:/SDL/SDL2_mixer-2.6.3/lib/x64",
+                "-LF:/SDL/SDL2_net-2.2.0/lib/x64",
+                "-LF:/SDL/SDL2_ttf-2.20.2/lib/x64",
+                "-lSDL2main",
+                "-lSDL2",
+                "-lSDL2_image",
+                "-lSDL2_ttf",
+                "-lSDL2_mixer",
+                "-lSDL2_net",
+                "-mwindows"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "调试器生成的任务。"
+        }
+    ],
+    "version": "2.0.0"
+}
